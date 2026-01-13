@@ -9,6 +9,10 @@
   font-optical-sizing: auto;
   
 }
+.text-center{
+    text-align: center;
+    margin-top: 20px;
+}
 .btn{
    background-color: #FD6E0A; 
    border: none;
@@ -45,7 +49,7 @@
 /* main style */
 nav{
     width:71%;
-    max-width:1130px ;
+    max-width:1140px ;
     /* border:2px solid red; */
     margin:0px auto;
     display: flex;
@@ -56,7 +60,7 @@ header{
     background-color: #FFF8F3;
     padding-top: 50px;
     background: url("../images/developer.png"),url("../images/header_bg.png"),#FFF8F3;
-    background-position: top left,bottom right;
+    background-position: 23px 38px,bottom right;
     background-repeat: no-repeat;
 }
 .meun{
@@ -166,9 +170,9 @@ color: #757575;
  #resume-container .resume{
 width: 71%;
 max-width: 1140px;
-margin: 113px auto 0 ;
+margin: 113px auto 0;
 display: flex;
-gap: 24px;
+gap:24px;
 
 }
 #resume-container .resume .title-1{
@@ -180,18 +184,22 @@ gap: 24px;
     max-width: 511px;
     margin-right: 47px;
 }
- .resume-card .title{
+.experience-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+#resume-container .title{
     font-size: 20px;
     margin-bottom: 10px;
     font-weight: bold;
     color: #474747;
  }
- .resume-card .institute{
+ #resume-container .institute{
     color: #474747;
     margin-bottom: 20px;
     font-weight: 600;
  }
-  .resume-card .card-info{
+  .resume .card-info{
      color: #474747;
     font-size: 16px;
     line-height: 28px;
@@ -200,3 +208,51 @@ gap: 24px;
    .resume-card hr{
     margin: 30px 0;
    }
+   footer{
+    margin-top: 130px;
+    background-color:#FFF8F3 ;
+    padding:130px 0 ;
+   }
+   #footer{
+    max-width:1140px ;
+    width: 71%;
+    margin: 0 auto;
+   }
+  #footer .footer-container{
+    display: flex;
+    gap: 116px;
+  }
+  .footer-container .social{
+    max-width: 562px;
+
+  }
+  footer h2{
+    color: #181818;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+    .footer-container .social p{
+        color: #474747;
+        line-height: 28px;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .footer-container .icons a{
+        margin-right: 24px;
+    }
+    .footer-container form input[type="text"]{
+        width:461px;
+        padding: 18px 31px;
+        margin-bottom: 24px;
+        border: none;
+        border-radius: 5px;
+        color: #757575;
+    }
+    .footer-container form textarea{
+     width:461px;
+        padding: 18px 31px;
+        margin-bottom: 24px;
+        border: none;
+        border-radius: 5px;
+        color: #757575;   
+    }
