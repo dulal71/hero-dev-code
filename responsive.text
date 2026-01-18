@@ -1,0 +1,14 @@
+web first design
+laptop device
+@media quary and(max-width:1200px)
+
+tablet device
+@media quary and(max-width:992px)
+
+big mobile
+@media quary and(max-width:768px)
+
+normal device
+@media quary and(max-width:576px)
+device specfic
+@media quary and(min-width:576px) and (max-width:992px)
